@@ -92,8 +92,8 @@ let houses = [
 ]
 
 app.get("/api/houses/", (req, res)=>{
-    console.log("in get request")
-    res.send(houses);
+    const house = houses.find((house)=>house._id === (req.params.id));
+    res.send(house);
 });
 
 
