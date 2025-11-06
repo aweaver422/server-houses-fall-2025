@@ -92,7 +92,12 @@ let houses = [
 ]
 
 app.get("/api/houses/", (req, res)=>{
-    const house = houses.find((house)=>house._id === (req.params.id));
+    console.log("in get request")
+    res.send(houses);
+});
+
+app.get("/api/houses/:id", (req, res)=>{
+    const house = houses.find((house)=>house._id === parseInt(req.params.id));
     res.send(house);
 });
 

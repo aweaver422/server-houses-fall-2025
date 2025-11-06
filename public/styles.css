@@ -1,3 +1,7 @@
+body {
+    background: url(images/house-background.jpg);
+}
+
 h1 {
     color:navy;
 }
