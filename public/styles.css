@@ -1,7 +1,15 @@
 body {
-    background: url(images/house-background.jpg);
+    background: url(images/woodfireStock.jpg);
+    color: #F2B872;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    background: #590209;
+    margin: 15px;
 }
 
 h1 {
-    color:navy;
+    color:#f14620;
 }
